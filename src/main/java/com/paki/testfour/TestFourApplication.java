@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class TestFourApplication {
 
-   //most important class
+   //most important class, main is always key
     public static void main(String[] args) {
 
         SpringApplication.run(TestFourApplication.class, args);
