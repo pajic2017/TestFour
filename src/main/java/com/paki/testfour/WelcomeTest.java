@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class WelcomeTest {
 
-  //show us how to return String class, and bind to Git and after use Jenkins
+  //show us how to return String class, and bind to Git and after use Jenkins and docker
    @GetMapping("/showWorld")
     public String showData(){
        return "Hello World !!!";
